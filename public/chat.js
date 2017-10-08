@@ -32,7 +32,7 @@ function makeTags(){
 	var data = "";
 
 	for(var i=0;i<tag_arr.length;i++){
-		data+='<div class="col text-center" id="'+i+'"><a href="http://localhost:3030/chatwindow?tag='+tag_arr[i]+'"><button class="btn btn-warning">'+tag_arr[i]+'</button></a></div>'
+		data+='<div class="col text-center" id="'+i+'"><a href="http://http://kushrishab.herokuapp.com/chatwindow?tag='+tag_arr[i]+'"><button class="btn btn-warning">'+tag_arr[i]+'</button></a></div>'
 	}
 
 	holder.innerHTML = data;
