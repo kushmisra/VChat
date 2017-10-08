@@ -1,0 +1,43 @@
+<script src="/socket.io/socket.io.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+
+
+<html>
+<head>
+<title>Air Chat</title>
+</head>
+<body>
+<br>
+<br>
+
+<span class="text-center"><h1 class="text-danger font-weight-bold">Via Air</h1></span>
+
+<br>
+<br>
+
+<div class="container border border-info">
+	<div class="row" style="padding:10px;" id="tagList">
+		<div class="col text-center"><button class="btn btn-warning" id="0">Welcome</button></div>
+		<div class="col text-center"><button class="btn btn-warning id="1">Service</button></div>
+		<div class="col text-center"><button class="btn btn-warning" id="2">Help</button></div>
+
+	</div>
+</div>
+<br/>
+<br/>
+
+
+<center>
+	<h3>&nbsp;&nbsp;Add a tag&nbsp;&nbsp;</h3>
+	<input type="text" name="hello" id="tagging"/>
+	<button class="btn btn-primary" onclick="myFunction()">Click me</button>
+</center>
+
+<script type="text/javascript" src="popper.min.js"></script>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script src="chat.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
