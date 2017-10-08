@@ -2,8 +2,9 @@
   "name": "kush",
   "version": "1.0.0",
   "description": "chat app",
-  "main": "node index.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +17,9 @@
     "url": "https://github.com/kushmisra/VChat/issues"
   },
   "homepage": "https://github.com/kushmisra/VChat#readme",
+  "engines": {
+    "node": "8.0.0"
+  },
   "dependencies": {
     "express": "^4.16.1",
     "socket.io": "^2.0.3"
