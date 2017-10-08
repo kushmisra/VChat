@@ -38,8 +38,8 @@ io.on('connection', function(socket){
 
 });
 
-http.listen(3030,"0.0.0.0",function(){
-  console.log('listening on *:3030');
+http.listen(process.env.PORT || 3030, function(){
+  console.log('listening on *:5000');
 });
 
 
